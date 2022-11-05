@@ -1,6 +1,7 @@
 import React from 'react';
 import slack from '../assets/slack.png'
 import git from '../assets/git.png'
+import { Link } from 'react-router-dom';
 
 
 const Links = () => {
@@ -52,8 +53,18 @@ const Links = () => {
                             </a>
                         </div>
                     )}
+                    <div className="links fw-bold">
+                        <Link type='button'
+                            to="/contact"
+                            className='text-dark w-100'
+                            id="contact"
+                        >
+                            Contact Me
+                        </Link>
+                    </div>
                 </div>
             </section>
+
             <section>
                 <div className="container text-center pb-4 pt-3">
                     <img src={slack} alt="slack" id='profile__img' className='mx-2' />

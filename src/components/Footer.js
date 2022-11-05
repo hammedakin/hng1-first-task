@@ -6,7 +6,7 @@ import I4G from '../assets/I4G.png'
 const Footer = () => {
     return (
         <footer className='pb-4 pt-5'>
-            <div className="container-fluid text-center">
+            <div className="container-fluid text-md-center text-start">
             <hr />
                 <div className="row justify-content-between">
                     <div className="my-2 col-md-3">
